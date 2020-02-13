@@ -4,19 +4,20 @@
 		<title>Music</title>
 		<!-- This webpage is about Music in various media. -->
 		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/one_page_website.css">
 	</head>
 	<body>
 		
 		<!-- NAV -->
 		<div>
-			<div>
-				<ul>
-					<a href="#home" id="link"><li>Home</li></a>
-					<a href="#sign up/log in" id="link"><li>Sign Up/Log In</li></a>
-					<a href="#movies" id="link"><li>Music in Movies</li></a>
-					<a href="#shows" id="link"><li>Music in TV Shows</li></a>
-					<a href="#videogames" id="link"><li>Music in Video Games</li></a>
-					<a href="#gallery" id="link"><li>Gallery</li></a>
+			<div class="menu">
+				<ul class="nav_menu">
+					<a href="#home" class="link"><li>Home</li></a>
+					<a href="#sign up/log in" class="link"><li>Sign Up/Log In</li></a>
+					<a href="#movies" class="link"><li>Music in Movies</li></a>
+					<a href="#shows" class="link"><li>Music in TV Shows</li></a>
+					<a href="#videogames" class="link"><li>Music in Video Games</li></a>
+					<a href="#gallery" class="link"><li>Gallery</li></a>
 				</ul>
 			</div>
 		</div>
@@ -39,14 +40,14 @@
 		<!-- Sign up/Log in -->
 		<section>
 			<div id="sign up/log in">
-				<div>
+				<div class="container">
 					<h1>Sign up/Log in</h1>
 					<div>
 						<h3><span>Sign up and join the conversation!</span></h3>
 						<p>
 							Please provide your name any username you choose, an e-mail, and a password.
 						</p><!-- Name is optional, and is only used for the e-mail verification -->
-						<div>
+						<div class="form">
 							<form action="" method="post">
 								<input class="signup" type="text" value="Full name">
 								<input class="signup" type="text" value="Username">
@@ -54,7 +55,7 @@
 								<input class="signup" type="text" value="Password">
 								<div class="form-spacer">
 								</div>
-								<div>
+								<div class="submit">
 									<input type="submit" value="Submit">
 								</div>
 							<h3><span>Already signed up? Log in here!</span></h3>
@@ -74,7 +75,7 @@
 		<!-- Movies -->
 		<div id="movies">
 			<div>
-				<div>
+				<div class="text">
 					<h1>Music in Movies</h1>
 					<h3>Music can serve several purposes that are either important on the<br>
 					emotional side of the movie or help/enhance the storytelling. It is not<br>
@@ -97,7 +98,7 @@
 					filled with your own thoughts about the characters and who is a "thing"<br>
 					or a human.
 					</div>
-					<img src="Thing_poster.png" width="514" height="770" alt="The Thing theatrical poster.">
+					<img src="Thing_poster.png" width="514" height="770" alt="The Thing theatrical poster." class="center">
 						<div>
 							<p><b>Disscussion board</b></p>
 							
@@ -174,7 +175,7 @@
 	
 	<!-- Footer -->
 	<div>
-		<footer>Cory Grundy | &copy 2020
+		<footer>Cory Grundy &ensp;|&ensp; &copy 2020
 		</footer>
 	</div>
 	<!-- End Footer -->

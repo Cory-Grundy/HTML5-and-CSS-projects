@@ -1,0 +1,41 @@
+/*--------------------------
+    General style
+----------------------------*/
+
+h1, h2, h3, p, header {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+header {
+    font-size: 15px;
+}
+
+p {
+    font-size: 12px;
+}
+
+/*---------------------------
+    Image Style
+-----------------------------*/
+
+.center {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%
+}
+
+/*---------------------------
+    Form Style
+-----------------------------*/
+
+.signup {
+    width: 70%;
+    margin: 0px auto;
+    border-radius: 8px;
+}
+
+.form {
+    border: 1px solid #808080;
+}
