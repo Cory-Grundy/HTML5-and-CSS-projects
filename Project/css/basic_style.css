@@ -66,6 +66,11 @@ text-shadow: 2px 1px 4px rgba(0,0,0, 0.0);
 -----------------------------------------*/
 .container .squares:nth-child(-n+4):hover {
     background-image: url("../images/Icons/smileyface1.png");
+    transform: scale(.5);
+    animation-name: race;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-besier(2.5,.2,.3,2);
 }
 
 .squares:nth-child(1):hover {
@@ -82,4 +87,17 @@ text-shadow: 2px 1px 4px rgba(0,0,0, 0.0);
 
 .squares:nth-child(4):hover {
     background: #77b800;
+}
+
+/*---------------------------------------------
+    ANIMATION EFFECT
+-----------------------------------------------*/
+@keyframes race {
+    0%, 100% {
+        transform: translateY(0px);
+        background-image: url("../images/Icons/smileyface1.png");
+    }
+    50% {
+        transform: translateY(330px);
+    }
 }
