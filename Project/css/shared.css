@@ -53,6 +53,7 @@ h2 {
 }
 
 h3 {
+    color: black;
     line-height: 30px;
     padding-bottom: 20px;
 }
@@ -63,6 +64,7 @@ h4 {
     padding-bottom: 0px;
     font-size: 22px;
     font-weight: 900;
+    text-align: center;
 }
 
 p {
@@ -212,7 +214,7 @@ section {
     box-shadow: -1px -1px 1px 0 rgba(0,0,0,0.1);
 }
 
-.reservations h2 {
+.reservation h2 {
     width: 70%;
     text-align: center;
     margin: 0 auto;
@@ -223,7 +225,7 @@ section {
     word-spacing: 0pt;
 }
 
-.reservations h2 span {
+.reservation h2 span {
     width: 70%;
     text-align: center;
     margin: 0 auto;
@@ -239,6 +241,7 @@ section {
     color: #13161B;
     width: 50%;
     margin: 0 auto;
+    text-align: center;
 }
 
 .reservation form {
