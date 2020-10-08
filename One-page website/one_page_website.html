@@ -5,6 +5,7 @@
 		<!-- This webpage is about Music in various media. -->
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="css/one_page_website.css">
+		<script src="./js/one_page_website.js"></script>
 	</head>
 	<body>
 		
@@ -98,7 +99,7 @@
 					filled with your own thoughts about the characters and who is a "thing"<br>
 					or a human.
 					</div>
-					<img src="Thing_poster.png" width="514" height="770" alt="The Thing theatrical poster." class="center">
+					<img src="./images/Thing_poster1.png" width="514" height="770" alt="The Thing theatrical poster." class="center">
 						<div>
 							<p><b>Disscussion board</b></p>
 							
@@ -154,7 +155,7 @@
 					little more set up like a movie, or cutscenes that happen in a video game, where<br>
 					the music is pretty much set the whole way through the game.</p><br>
 					<div>
-						<p>Those are some games that with the way the developers ste them up, they could more<br>
+						<p>Those are some games that with the way the developers set them up, they could more<br>
 						or less, make them an interactive movie, or, as close to a movie/Tv show as they could<br>
 						for whatever their reasons where. But now we get to the good stuff. the games like<br>
 						Dead Space, or Red Dead Redemption 2, Halo: Combat Evolved, the vast majority of games<br>
@@ -172,7 +173,61 @@
 		</div>
 	</section>
 	<!-- End Music In Video Games -->
-	
+
+	<!-- Lightbox -->
+	<div class="row">
+		<div class="column">
+		  <img src="./images/Thing_poster.png" width="200" height="300" onclick="openModal();currentSlide(1)" class="hover-shadow">
+		</div>
+		<div class="column">
+		  <img src="./images/avatarTla.jpeg" width="200" height="300" onclick="openModal();currentSlide(2)" class="hover-shadow">
+		</div>
+		<div class="column">
+		  <img src="./images/CurseofMonkeyIsland.jpeg" width="200" height="300" onclick="openModal();currentSlide(3)" class="hover-shadow">
+		</div>
+	  </div>
+
+	<div id="myModal" class="modal">
+		<span class="close cursor" onclick="closeModal()">&times;</span>
+		<div class="modal-content">
+	  
+		    <div class="mySlides">
+				<div class="numbertext">1 / 3</div>
+				<img src="./images/Thing_poster.png" style="width:100%">
+		    </div>
+	  
+		    <div class="mySlides">
+				<div class="numbertext">2 / 3</div>
+				<img src="./images/avatarTla.jpeg" style="width:100%">
+		    </div>
+	  
+		    <div class="mySlides">
+				<div class="numbertext">3 / 3</div>
+				<img src="./images/CurseofMonkeyIsland.jpeg" style="width:100%">
+		    </div>
+		
+		    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+	  
+		    <div class="caption-container">
+			<p id="caption"></p>
+		    </div>
+	  
+		    <div class="column">
+				<img class="demo" src="./images/Thing_poster.png" onclick="currentSlide(1)" alt="The THing movie poster">
+		    </div>
+	  
+		    <div class="column">
+				<img class="demo" src="./images/avatarTla.jpeg" onclick="currentSlide(2)" alt="Avatar: The Last Airbener poster">
+		    </div>
+	  
+		    <div class="column">
+				<img class="demo" src="./images/CurseofMonkeyIsland.jpeg" onclick="currentSlide(3)" alt="The Curse of Monkey Island game cover">
+		    </div>
+		</div>
+	  </div>
+	<!-- End Lightbox -->
+
 	<!-- Footer -->
 	<div>
 		<footer>Cory Grundy &ensp;|&ensp; &copy 2020
