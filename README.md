@@ -1,2 +1,1 @@
-# HTML5-and-CSS-projects
-Projects for my Tech Academy HTML5 and CSS course
+Repository for my HTML5 and CSS projects.
